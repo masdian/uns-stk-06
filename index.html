@@ -91,10 +91,10 @@ top:1em;right:1em;
 &lt;br&gt;
 # **.purple[Outline]**
 
-- ##Definisi dan aplikasi peubah acak
-- ##Sebaran peubah acak
-- ##Beberapa model sebagaran peubah acak
-- ##Hampiran Normal terhadap Binomial
+- ##Sebaran penarikan contoh
+- ##Nilai harapan dan ragam sebaran penarikan contoh
+- ##Dalil Limit Pusat
+- ##Sebaran student-t
 
 ]
 
@@ -275,7 +275,7 @@ P(\bar{X}&lt;775)&amp;=P\left(Z&lt;\dfrac{775-800}{40/\sqrt{16}}\right) \\
 Pengeluaran rumah tangga per bulan untuk konsumsi di suatu kabupaten diketahui menyebar normal dengan rataan 250 ribu rupiah dan simpangan baku 25 ribu rupiah.
 1. Berapa persen rumah tangga yang pengeluaran per bulan untuk konsumsinya antara 225 ribu rupiah dan 265 ribu rupiah?
 1. Jika diambil 10 rumah tangga sebagai contoh. Berapa persen rata-rata pengeluaran per bulan untuk konsumsinya antara 225 ribu rupiah dan 265 ribu rupiah?
-1. ika diambil 30 rumah tangga sebagai contoh. Berapa persen rata-rata pengeluaran per bulan untuk konsumsinya antara 225 ribu rupiah dan 265 ribu rupiah?
+1. Jika diambil 30 rumah tangga sebagai contoh. Berapa persen rata-rata pengeluaran per bulan untuk konsumsinya antara 225 ribu rupiah dan 265 ribu rupiah?
 ]
 
 ---
@@ -289,7 +289,7 @@ Pengeluaran rumah tangga per bulan untuk konsumsi di suatu kabupaten diketahui m
 ### Dengan suatu sebarang sebaran populasi `\(X\)`, jika diambil contoh secara acak berukuran `\(n\)` yang besar, maka `\(\bar{X}\)` akan menyebar mendekati sebaran Normal dengan nilai tengah `\(\mu\)` dan ragam `\(\sigma^2/n\)`
 ]
 
-## `$$X \sim \underset{n \rightarrow \infty}{\text{sebarang sebaran}} \Rightarrow \bar{X} \sim \text{N}\left(\dfrac{\bar{X}-\mu}{\sigma/\sqrt{n}}\right)$$`
+## `$$X \sim \underset{n \rightarrow \infty}{\text{sebarang sebaran}} \Rightarrow \bar{X} \sim \text{N}\left(\mu,\dfrac{\sigma^2}{n}\right)$$`
 
 --
 
@@ -360,13 +360,6 @@ dan didapatkan nilai `\(1.8595\)`
 
 Jadi batasan rataan volume botol yang masih diterima tidak lebih dari `\(207.44\)`
 ]
----
-
-
----
-
-
----
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
